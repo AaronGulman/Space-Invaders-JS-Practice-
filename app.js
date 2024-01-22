@@ -8,6 +8,7 @@ let goingRight = true;
 let aliensRemoved = []
 let results = 0;
 
+
 for(let i = 0; i < 225; i++){
 	const square = document.createElement('div')
 	grid.appendChild(square)
@@ -25,6 +26,7 @@ function draw(){
 	for(let i = 0; i < alienInvaders.length; i++){
 		if(!aliensRemoved.includes(i))
 		squares[alienInvaders[i]].classList.add('invader')
+
 	}
 }
 
@@ -37,6 +39,7 @@ function remove(){
 }
 
 squares[currenShooterIndex].classList.add('shooter')
+
 
 
 

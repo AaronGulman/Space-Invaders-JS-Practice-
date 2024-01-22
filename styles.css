@@ -4,6 +4,7 @@
 	border: 1px solid black;
 	display: flex;
 	flex-wrap: wrap;
+	background: url(./assets/space.avif);
 }
 
 .grid div{
@@ -14,18 +15,22 @@
 
 
 .invader{
-	background-color:rgb(128, 0, 128);
-	border-radius: 10px;
+	background-image: url(./assets/aliens.png);
+	background-size: cover;
 }
 
 .shooter{
-	background-color:rgb(0, 255, 30);
+	background-image: url(./assets/spaceship.png);
+	background-size: cover;
 }
 
 .laser {
-	background-color: rgb(248, 162, 2);
+	background-image: url(./assets/laser.png);
+	transform: rotate(90deg);
+	background-size: cover;
 }
 
 .boom{
-	background-color: rgb(249, 5, 5);
+	background-image: url(./assets/explosion.png);
+	background-size: cover;
 }
