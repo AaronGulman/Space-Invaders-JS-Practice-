@@ -19,9 +19,13 @@
 }
 
 .shooter{
-	background-color:rgb(255, 0, 0);
+	background-color:rgb(0, 255, 30);
 }
 
 .laser {
 	background-color: rgb(248, 162, 2);
+}
+
+.boom{
+	background-color: rgb(249, 5, 5);
 }
